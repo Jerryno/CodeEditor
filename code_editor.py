@@ -1,4 +1,4 @@
-# ##### BEGIN GPL LICENSE BLOCK #####
+﻿# ##### BEGIN GPL LICENSE BLOCK #####
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -522,10 +522,10 @@ def draw_callback_px(self, context):
             bgl.glEnd()
     
     # draw fps
-    bgl.glColor4f(1, 1, 1, 0.2)
-    blf.size(font_id, fs, int(dpi_r*72))
-    blf.position(font_id, self.left_edge-50, 5, 0)
-    blf.draw(font_id, str(round(1/(time.clock() - start),3)))
+#    bgl.glColor4f(1, 1, 1, 0.2)
+#    blf.size(font_id, fs, int(dpi_r*72))
+#    blf.position(font_id, self.left_edge-50, 5, 0)
+#    blf.draw(font_id, str(round(1/(time.clock() - start),3)))
     
     # draw line numbers
     if space.text:
